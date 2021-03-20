@@ -1,0 +1,98 @@
+@media(max-width: 1000px){
+    .container{
+        padding: 0 10px;
+    }
+    .header{
+        width: 100%;
+    }
+    .reviews__item{
+        flex-direction: column;
+    }
+    .request__inner-map{
+        margin-top: 20px;
+    }
+    .our-projects__item{
+        height: 100%;
+
+    }
+}
+
+
+@media(max-width: 600px){
+    .rewiews__button-prev, .rewiews__button-next{
+      top: 95%;
+    }
+    .reviews__item-text{
+        margin-bottom: 20px;
+    }
+    .reviews{
+        padding-bottom: 65px;
+    }
+}
+
+@media (max-width: 500px){
+    
+    
+     .header__top{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 20px;
+     }
+     .logo{
+         align-self: start;
+         padding-left: 20px;
+     }
+     .header__top_phone{
+        align-self: start;
+     }
+    .nav__menu{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .nav__menu-item{
+        margin-bottom: 5px;
+    }
+    .header__promo{
+        margin: 0;
+        padding: 15px;
+        
+    }
+    .header__promo-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .button-request{
+    padding: 25px 34px ;
+ 
+    }
+    .about-us__inner{
+        padding: 0 10px;
+    }
+    .about-us__main-items {
+        padding: 15px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .team__item{
+        margin-right: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .how-we-work__items{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .how-we-work__item{
+        margin-bottom: 20px;
+   
+    }
+    .reviews__item {
+        padding: 0 10px;
+        width: 100%;
+    }
+   
+}
